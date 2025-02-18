@@ -3,7 +3,7 @@ nolist
 org #1000
 
 WRITE "f:\symbos\apps\pacman.exe"
-READ "..\..\..\..\SVN-Main\trunk\SymbOS-Constants.asm"
+READ "..\..\..\SRC-Main\SymbOS-Constants.asm"
 
 relocate_start
 
@@ -117,9 +117,9 @@ use_SySound_EFXFRE      equ 1   ;removes effect data
 use_SySound_EFXPLY      equ 1   ;starts playing an effect
 use_SySound_EFXSTP      equ 0   ;stop effects
 
-READ "..\..\..\..\SVN-Main\trunk\Docs-Developer\symbos_lib-SystemManager.asm"
-READ "..\..\..\..\SVN-Main\trunk\Docs-Developer\symbos_lib-FileManager.asm"
-READ "..\..\..\..\SVN-Main\trunk\Docs-Developer\symbos_lib-SoundDaemon.asm"
+READ "..\..\..\SRC-Main\Docs-Developer\symbos_lib-SystemManager.asm"
+READ "..\..\..\SRC-Main\Docs-Developer\symbos_lib-FileManager.asm"
+READ "..\..\..\SRC-Main\Docs-Developer\symbos_lib-SoundDaemon.asm"
 READ "App-PacMan.asm"
 
 App_EndTrns
